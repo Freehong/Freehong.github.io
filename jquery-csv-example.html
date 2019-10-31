@@ -2,8 +2,7 @@
 <html>
   <head>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script src=src= "https://www.gstatic.com/charts/loader.js"></script>
-            //"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src=src= "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="jquery-csv.js"></script>
     
 
@@ -31,13 +30,15 @@
         // then, the remaining process is same to the previous chart drawing assignments.
         var data2 = google.visualization.arrayToDataTable(arrayData);
 
- 	var options = {
+        
+        
+ 	var options2 = {
           title: 'LAL score in 10/30 game'
         };
 
-        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+        var chart2 = new google.visualization.PieChart(document.getElementById('piechart'));
 
-        chart.draw(data2, options);
+        chart2.draw(data2, options2);
       }
     </script>
   </head>
